@@ -12,7 +12,42 @@
   padding: 0 15px;
   border: 1px solid red;
 }
+.section-heading h2 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section-heading .para {
+  display: flex;
+  justify-content: center;
+}
+.section-heading p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+}
+.btn {
+  border-radius: 8px;
+  padding: 11px 20px;
 
+  border: none;
+  margin-top: 24px;
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 /* nav css start here */
 .navbar {
   display: flex;
@@ -87,4 +122,102 @@
 .banner-text button a {
   text-decoration: none;
   color: #fff;
+}
+
+/* card section css starts */
+.vison {
+  margin-top: 80px;
+}
+.section-card {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 40px;
+}
+.card1 {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+.card1 h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.card1 p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card1 .btn {
+  background-color: #5490f5;
+}
+
+/* card 2 */
+.card2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+
+  background: #c6e4d6;
+  padding: 32px;
+}
+.card2 h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.card2 p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card2 .btn {
+  background: #09a15c;
+}
+/* card 3 */
+
+.card3 {
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+
+  background: #f7ebcf;
+  padding: 32px;
+}
+.card3 h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.card3 p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card3 .btn {
+  background: #ffc239;
 }
