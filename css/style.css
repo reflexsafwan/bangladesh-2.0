@@ -59,7 +59,7 @@
   font-weight: 700;
   line-height: normal;
 }
-.navbar button {
+.navbar .nav-btn {
   border-radius: 8px;
   border: 1px solid #006a50;
   padding: 15px 30px;
@@ -279,4 +279,70 @@
   border-radius: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+/* donate area css */
+.donate h2 {
+  text-align: center;
+}
+.donate p {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.donate-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.donate-box button {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.donate-box button:hover {
+  background: #c6e4d6;
+  color: #fff;
+}
+.box4 > button {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.donate-input {
+  text-align: center;
+}
+
+.donate-input input {
+  padding: 20px 40px;
+  width: 95%;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  margin-top: 32px;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.donate-btn {
+  text-align: center;
+}
+.donate-btn > button {
+  background: #006a50;
+}
+.donate-btn > button:hover {
+  background: rgba(161, 25, 25, 0.765);
 }
