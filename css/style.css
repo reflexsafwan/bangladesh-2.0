@@ -137,6 +137,9 @@
   background: rgba(84, 144, 245, 0.2);
   padding: 32px;
 }
+.card1 > .btn:hover {
+  background: rgba(161, 25, 25, 0.765);
+}
 .card1 h3 {
   color: rgba(14, 14, 14, 0.8);
   font-family: "Fira Sans";
@@ -188,6 +191,9 @@
 .card2 .btn {
   background: #09a15c;
 }
+.card2 > .btn:hover {
+  background: rgba(161, 25, 25, 0.765);
+}
 /* card 3 */
 
 .card3 {
@@ -218,7 +224,9 @@
 .card3 .btn {
   background: #ffc239;
 }
-
+.card3 > .btn:hover {
+  background: rgba(161, 25, 25, 0.765);
+}
 /* news css start */
 .news {
   margin-top: 80px;
@@ -267,6 +275,9 @@
 }
 .news-content .btn {
   background: #006a50;
+}
+.news-content > .btn:hover {
+  background: rgba(161, 25, 25, 0.765);
 }
 /* blog-2 */
 .blog2 {
